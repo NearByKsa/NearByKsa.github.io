@@ -35,7 +35,7 @@
     footer.innerHTML =
       '<div class="wrap">' +
         '<div class="entity">' + rows.join('') + '</div>' +
-        '<div>© ' + (E.tradeName || 'NearBy') + ' · منصة وسيطة لطلب الطعام المنزلي وحجز خدمات الطبخ. الدفع عبر Moyasar.</div>' +
+        '<div>© ' + (E.tradeName || 'NearBy') + ' · منصة وسيطة للبيع المحلي وحجز الخدمات. الدفع عبر Moyasar.</div>' +
       '</div>';
   }
 
