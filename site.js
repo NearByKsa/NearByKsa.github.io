@@ -3,7 +3,7 @@
   var page = document.body.getAttribute('data-page') || 'home';
   var links = [
     { id: 'home', href: 'index.html', label: 'الرئيسية' },
-    { id: 'pricing', href: 'pricing.html', label: 'الأسعار' },
+    { id: 'pricing', href: 'pricing.html', label: 'رسوم المنصة' },
     { id: 'refund', href: 'refund.html', label: 'الاستبدال والاسترجاع' },
     { id: 'terms', href: 'terms.html', label: 'الشروط والأحكام' },
     { id: 'privacy', href: 'privacy.html', label: 'الخصوصية' }
