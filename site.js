@@ -35,7 +35,7 @@
     footer.innerHTML =
       '<div class="wrap">' +
         '<div class="entity">' + rows.join('') + '</div>' +
-        '<div>© ' + (E.tradeName || 'NearBy') + ' · منصة وسيطة للبيع المحلي. الدفع عبر Moyasar.</div>' +
+        '<div>© ' + (E.tradeName || 'NearBy') + ' · منصة وسيطة للطبخ والمنتجات المنزلية. الدفع عبر Moyasar.</div>' +
       '</div>';
   }
 
