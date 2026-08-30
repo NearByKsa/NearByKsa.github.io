@@ -2,13 +2,13 @@
   --bg: #070707;
   --bg-elev: #111111;
   --bg-card: #161616;
-  --gold: #d4af37;
-  --gold-light: #f0d78c;
-  --gold-dim: rgba(212, 175, 55, 0.18);
-  --text: #f6f1e4;
-  --muted: rgba(246, 241, 228, 0.62);
-  --line: rgba(212, 175, 55, 0.22);
-  --danger: #c9a06a;
+  --accent: #ff5722;
+  --accent-light: #ff8a65;
+  --accent-dim: rgba(255, 87, 34, 0.18);
+  --text: #f7f0ea;
+  --muted: rgba(247, 240, 234, 0.62);
+  --line: rgba(255, 87, 34, 0.28);
+  --danger: #ff8a65;
   --radius: 18px;
   --max: 1080px;
 }
@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
 }
 
-a { color: var(--gold-light); text-decoration: none; }
+a { color: var(--accent-light); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .wrap { width: min(var(--max), calc(100% - 40px)); margin: 0 auto; }
@@ -55,7 +55,7 @@ a:hover { text-decoration: underline; }
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.45rem;
   letter-spacing: 0.04em;
-  color: var(--gold);
+  color: var(--accent);
 }
 .brand span { color: var(--muted); font-size: 0.78rem; }
 .nav {
@@ -70,14 +70,14 @@ a:hover { text-decoration: underline; }
   text-decoration: none;
   padding: 4px 0;
 }
-.nav a:hover, .nav a.active { color: var(--gold-light); }
+.nav a:hover, .nav a.active { color: var(--accent-light); }
 
 .hero {
   padding: 72px 0 36px;
   border-bottom: 1px solid var(--line);
 }
 .kicker {
-  color: var(--gold);
+  color: var(--accent);
   letter-spacing: 0.18em;
   font-size: 0.72rem;
   text-transform: uppercase;
@@ -105,19 +105,19 @@ a:hover { text-decoration: underline; }
   padding: 12px 22px;
   font-size: 0.92rem;
   text-decoration: none;
-  border: 1px solid var(--gold);
+  border: 1px solid var(--accent);
 }
-.btn-gold { background: var(--gold); color: #111; font-weight: 600; }
-.btn-gold:hover { background: var(--gold-light); text-decoration: none; }
-.btn-ghost { color: var(--gold-light); }
-.btn-ghost:hover { background: var(--gold-dim); text-decoration: none; }
+.btn-accent { background: var(--accent); color: #111; font-weight: 600; }
+.btn-accent:hover { background: var(--accent-light); text-decoration: none; }
+.btn-ghost { color: var(--accent-light); }
+.btn-ghost:hover { background: var(--accent-dim); text-decoration: none; }
 
 .section { padding: 56px 0; border-bottom: 1px solid var(--line); }
 .section h2 {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.7rem;
   margin: 0 0 10px;
-  color: var(--gold-light);
+  color: var(--accent-light);
 }
 .section .intro { color: var(--muted); max-width: 720px; margin: 0 0 28px; }
 
@@ -134,7 +134,7 @@ a:hover { text-decoration: underline; }
 }
 .card h3 { margin: 0 0 8px; font-size: 1.05rem; }
 .card .price {
-  color: var(--gold);
+  color: var(--accent);
   font-weight: 600;
   font-size: 1.05rem;
   margin: 12px 0 0;
@@ -156,7 +156,7 @@ th, td {
   border-bottom: 1px solid var(--line);
   vertical-align: top;
 }
-th { background: #1c1c1c; color: var(--gold-light); font-weight: 600; }
+th { background: #1c1c1c; color: var(--accent-light); font-weight: 600; }
 tr:last-child td { border-bottom: none; }
 .note {
   margin-top: 14px;
@@ -174,14 +174,14 @@ tr:last-child td { border-bottom: none; }
 }
 .meta { color: var(--muted); font-size: 0.88rem; margin: 0 0 32px; }
 .legal h2 {
-  color: var(--gold-light);
+  color: var(--accent-light);
   font-size: 1.15rem;
   margin: 32px 0 10px;
 }
 .legal p, .legal li { color: rgba(246, 241, 228, 0.88); }
 .legal ul { padding-right: 1.2em; }
 .callout {
-  background: var(--gold-dim);
+  background: var(--accent-dim);
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 16px 18px;
