@@ -8,7 +8,7 @@ window.NEARBY_ENTITY = {
   maroof: '',
   country: 'المملكة العربية السعودية',
   city: '',
-  email: 'support@nearby.app',
-  privacyEmail: 'privacy@nearby.app',
+  email: 'contact@nearby-info.com',
+  privacyEmail: 'contact@nearby-info.com',
   effectiveDate: '28 أغسطس 2026'
 };

@@ -31,7 +31,7 @@
     if (E.vatNumber) rows.push('<span>الرقم الضريبي: ' + E.vatNumber + '</span>');
     if (E.maroof) rows.push('<span>معروف: ' + E.maroof + '</span>');
     rows.push('<span>الدولة: ' + (E.country || 'المملكة العربية السعودية') + (E.city ? ' — ' + E.city : '') + '</span>');
-    rows.push('<span>البريد: <a href="mailto:' + (E.email || '') + '">' + (E.email || '') + '</a> · الخصوصية: <a href="mailto:' + (E.privacyEmail || '') + '">' + (E.privacyEmail || '') + '</a></span>');
+    rows.push('<span>البريد: <a href="mailto:' + (E.email || '') + '">' + (E.email || '') + '</a></span>');
     footer.innerHTML =
       '<div class="wrap">' +
         '<div class="entity">' + rows.join('') + '</div>' +
