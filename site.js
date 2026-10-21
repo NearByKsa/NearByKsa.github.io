@@ -35,6 +35,7 @@
     footer.innerHTML =
       '<div class="wrap">' +
         '<div class="entity">' + rows.join('') + '</div>' +
+        '<div>تطبيق NearBy من شركة RM Space</div>' +
         '<div>© ' + (E.tradeName || 'NearBy') + ' · منصة إلكترونية للطبخ والمنتجات المنزلية. الدفع عبر Moyasar.</div>' +
       '</div>';
   }
